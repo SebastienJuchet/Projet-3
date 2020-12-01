@@ -1,0 +1,57 @@
+@media screen and (max-width: 425px) {
+	header p{
+		font-size: 1.2rem;
+	}
+
+	#using{
+		font-size: 1.6rem;
+	}
+
+	.fa-pause-circle, .fa-play-circle{
+		top: 125%;
+	}
+
+	#clear, .submit, #cancel, .valid{
+		text-align: ;
+		width: 25%;
+		font-size: 0.8rem;
+		padding: 0.5rem 1rem;
+	}
+
+	#button-annulation{
+		width: 70%;
+		margin-left: 5%;
+	}
+
+	footer p:nth-child(2){
+		width: 48%;
+	}
+
+	footer p:nth-child(3){
+		display: none;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	
+	#button-annulation{
+		width: 65%;
+	}
+
+	.slide_description h2{
+		padding-bottom: 0;
+	}
+
+	.slide_description h2 + p{
+		line-height: 0.9rem;
+	}
+	.fa-pause-circle, .fa-play-circle{
+		top: 135%;
+	}
+	
+	#sign-canvas{
+		width: 250px;
+		height: 200px;
+		margin-left: calc(50% - 250px /2);
+	} 
+}

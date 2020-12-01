@@ -1,0 +1,10 @@
+@media screen and (max-width: 1440px){
+	#sign-canvas{
+		width: 400px;
+		margin-left: calc(50% - 200px)
+	}
+
+	#clear, .submit, #cancel, .valid{
+		font-size: 1.2rem;
+	}
+}

@@ -1,0 +1,72 @@
+@media screen and (max-width: 1024px) {
+	.fa-play-circle, .fa-pause-circle, .fa-arrow-circle-left, .fa-arrow-circle-right {
+		font-size: 2.5rem;
+	}
+
+	.fa-play-circle, .fa-pause-circle{
+		top: 115%;
+		left: calc(50% - 2.5rem / 2);
+	}
+	
+	#map-form{
+		margin-top: 7rem;
+	}
+
+	#map{
+		height: 30rem;
+	}
+
+	#form{
+		height: 30rem;
+	}
+
+	.infos-station{
+		font-size: 0.8rem;
+		line-height: 2rem;
+	}
+
+	#reservation, .identity{
+		font-size: 1rem;
+	}
+
+	.identity{
+		margin: 0 1.5rem 3rem 0;
+	}
+
+	#btn-form{
+		padding: 0.2rem;
+	}
+
+	#canvas{
+		height: 30rem;
+	}
+
+	#canvas p{
+		font-size: 1.2rem;
+	}
+
+	#sign-canvas{
+		width: 300px;
+		height: 200px;
+		margin-left: calc(50% - 150px);
+	}
+
+	#clear, .submit, #cancel, .valid{
+		margin-top: 0.5rem;
+		padding: 0.8rem 1.5rem;
+		font-size: 1.3rem;
+	}
+
+	#sign-infos,#timer{
+		font-size: 1.3rem;
+	}
+
+	#sign-infos{
+		margin-top: 2.5rem;
+	}
+
+	#button-annulation{
+		font-size: 1.2rem;
+		
+	}	
+}

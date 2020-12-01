@@ -1,0 +1,37 @@
+@media screen and (max-width: 660px) {
+	#map-form{
+		width: 100%;
+		flex-direction: column;
+	}
+
+	#map, #form{
+		width: 90%;
+		margin-bottom: 1rem;
+		margin-left: calc(50% - 45%);
+	}
+
+	#details{
+		background: none;
+		top: -3%;
+	}
+
+	.leaflet-popup-pane{
+		display: block;
+	}
+
+	#canvas{
+		margin-top: 1rem;
+		bottom: 0;
+		width: 90%;
+		left: 5%;
+	}
+
+	#button-annulation{
+		width: 45%;
+		margin-left: calc(50% - 22.5%);
+	}
+
+	footer, footer p, footer a{
+		font-size: 0.8rem;
+	}
+}

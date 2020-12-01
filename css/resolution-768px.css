@@ -1,0 +1,31 @@
+@media screen and (max-width: 768px) {
+	header h1, header p{
+		font-size: 1.8rem;
+	}
+
+	header p{
+		line-height: 3rem;
+	}
+
+	.slide_description h2, .slide_description p{
+		font-size: 1rem;
+	}
+
+	#map-form{
+		margin-top: 5.5rem;
+	}
+
+	#btn-form{
+		font-size: 1.2rem;
+	}
+
+	#clear, .submit, #cancel, .valid{
+		width: 28%;
+	}
+
+	#button-annulation{
+		font-size: 1rem;
+		width: 35%;
+		margin-left: calc(50% - 35%/2);
+	}
+}
